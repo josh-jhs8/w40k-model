@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Db;
 
 namespace w40k_model
 {
@@ -23,6 +24,7 @@ namespace w40k_model
         public MainWindow()
         {
             InitializeComponent();
+            QuickTest.TestDb();
         }
     }
 }

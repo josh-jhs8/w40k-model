@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "w40k-model", "w40k-model\w40k-model.csproj", "{9AE5468E-7D90-4872-AAF2-8B3A63A435CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "w40k-model\UI.csproj", "{9AE5468E-7D90-4872-AAF2-8B3A63A435CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbModel", "DbModel\DbModel.csproj", "{13F090EE-7E14-4232-A09E-C8FD156AC46C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Db", "Db\Db.csproj", "{B69C02BD-054C-4D72-ABBD-5111CA3E1BFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9AE5468E-7D90-4872-AAF2-8B3A63A435CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AE5468E-7D90-4872-AAF2-8B3A63A435CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AE5468E-7D90-4872-AAF2-8B3A63A435CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F090EE-7E14-4232-A09E-C8FD156AC46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F090EE-7E14-4232-A09E-C8FD156AC46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F090EE-7E14-4232-A09E-C8FD156AC46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F090EE-7E14-4232-A09E-C8FD156AC46C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69C02BD-054C-4D72-ABBD-5111CA3E1BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69C02BD-054C-4D72-ABBD-5111CA3E1BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69C02BD-054C-4D72-ABBD-5111CA3E1BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69C02BD-054C-4D72-ABBD-5111CA3E1BFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
