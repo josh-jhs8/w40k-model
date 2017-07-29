@@ -15,12 +15,15 @@ namespace Db
         {
             using (var db = new W40kDbContext())
             {
-                var unitType = new UnitType { Name = "Elite" };
+                var currentUnitTypes = db.UnitTypes.ToList();
 
-                db.UnitTypes.Add(unitType);
+                db.UnitTypes.RemoveRange(currentUnitTypes);
+
+                var newUnitTypes = UnitType.SeedUnitTypes();
+                db.UnitTypes.AddRange(newUnitTypes);
                 db.SaveChanges();
 
-                var query = db.UnitTypes.OrderBy(ut => ut.Name);
+                var query = db.UnitTypes.OrderBy(ut => ut.Id);
 
                 foreach (var item in query)
                 {
